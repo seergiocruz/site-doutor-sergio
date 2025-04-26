@@ -1,0 +1,56 @@
+
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  background: #3a3a3a;
+  color: #eaeaea;
+}
+
+header.hero {
+  background: url('capa-oftalmo.jpg') center/cover no-repeat;
+  height: 100vh;
+  position: relative;
+}
+
+header .overlay {
+  background: rgba(0,0,0,0.5);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+header .content {
+  position: relative;
+  z-index: 1;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+nav {
+  background: #2c2c2c;
+  padding: 10px 20px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav a {
+  color: #eaeaea;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.button {
+  background: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: inline-block;
+}
